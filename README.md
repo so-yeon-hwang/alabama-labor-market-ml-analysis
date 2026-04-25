@@ -1,5 +1,4 @@
-# 📊 Machine Learning Analysis of Labor Market Inequality in Alabama
-
+# 📊 Alabama Labor Market ML Analysis
 ## 🚀 Project Overview
 This project investigates **structural inequality across Alabama counties** and analyzes how different regions responded to the **COVID-19 labor market shock** using machine learning techniques.
 
