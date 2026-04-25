@@ -20,7 +20,7 @@ This project analyzes structural inequality across Alabama counties and investig
 - Machine learning (Random Forest, XGBoost)
 
 ## 📑 Paper
-[View Final Paper](./paper/Structural Inequality and Uneven Labor Market Dynamics.pdf)
+[View Final Paper](./paper/Structural_Inequality_Alabama.pdf)
 
 ## 💻 Notebook
 [Open in Google Colab] https://colab.research.google.com/drive/1tzEG7j1RC7esAK25Xyn6z5sG04iNIuX0?usp=sharing
