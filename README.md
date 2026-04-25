@@ -1,35 +1,89 @@
-# Alabama Labor Market ML Analysis
+# 📊 Machine Learning Analysis of Labor Market Inequality in Alabama
 
-## 📌 Overview
-This project analyzes structural inequality across Alabama counties and investigates how COVID-19 impacted regional labor market dynamics using machine learning techniques.
+## 🚀 Project Overview
+This project investigates **structural inequality across Alabama counties** and analyzes how different regions responded to the **COVID-19 labor market shock** using machine learning techniques.
 
-## 🎯 Objectives
-- Identify structural differences across counties
-- Analyze COVID-19 shock and recovery patterns
-- Evaluate predictive power of socioeconomic variables
+---
+
+## 🎯 Key Questions
+- Do structurally different counties experience labor shocks differently?
+- Can socioeconomic variables predict unemployment trends?
+- Where do machine learning models fail?
+
+---
 
 ## 📊 Data Sources
-- ACS (American Community Survey)
-- LAUS (Local Area Unemployment Statistics)
-- CBP (County Business Patterns)
+- ACS (income, poverty)
+- LAUS (unemployment)
+- CBP (industry structure)
 
-## 🧠 Methods
-- Data cleaning and merging (2015–2024)
-- K-means clustering
-- COVID-19 shock analysis
-- Machine learning (Random Forest, XGBoost)
+📅 Time Range: **2015 – 2024**
 
-## 📑 Paper
-[View Final Paper](./paper/Structural_Inequality_Alabama.pdf)
+---
+
+## 📉 COVID-19 Shock Analysis
+
+The figure below shows the **average unemployment trend across Alabama counties**, highlighting a sharp spike during the COVID-19 shock in 2020.
+
+![COVID Shock](./images/covid_shock.png)
+
+👉 Insight:
+- Sudden spike (~14%) during COVID
+- Uneven recovery across counties
+- Evidence of structural vulnerability
+
+---
+
+## 🧠 Clustering Analysis
+
+Counties were grouped using **K-means clustering** based on socioeconomic and industrial features.
+
+![Clustering Map](./images/AL_county_cluster.png)
+
+👉 Cluster Interpretation:
+- **Cluster 0 (Green)**: Stable regions
+- **Cluster 1 (Red)**: Distressed regions
+- **Cluster 2 (Yellow)**: Transitional / mixed economies
+
+---
+
+## 🤖 Predictive Modeling
+- Random Forest
+- XGBoost
+
+👉 Goal:
+Predict unemployment rate using structural variables
+
+---
+
+## 📈 Key Findings
+- Structural inequality leads to different labor market responses
+- Distressed regions show slower recovery
+- Median income & poverty rate are key predictors
+- ML models struggle in high-unemployment regions
+
+---
+
+## 📄 Research Paper
+👉 [Download Full Paper](./paper/Structural_Inequality_Alabama.pdf)
+
+---
 
 ## 💻 Notebook
-[Open in Google Colab] https://colab.research.google.com/drive/1tzEG7j1RC7esAK25Xyn6z5sG04iNIuX0?usp=sharing
+👉 [Run Analysis in Google Colab](https://colab.research.google.com/drive/1tzEG7j1RC7esAK25Xyn6z5sG04iNIuX0?usp=sharing)
 
-## 📈 Key Insights
-- Structural inequality leads to different labor market responses
-- Distressed counties show slower recovery after COVID-19
-- Median income and poverty rate are key predictors
-- Predictive models struggle in high-unemployment regions
+---
 
-## 🚀 Tech Stack
-Python, Pandas, Scikit-learn, XGBoost, Google Colab
+## 🛠 Tech Stack
+Python, Pandas, Scikit-learn, XGBoost, Matplotlib
+
+---
+
+## 🌎 Why This Matters
+This project shows how **data science can inform economic policy**, while also revealing the **limitations of ML in real-world systems**.
+
+---
+
+## 👩‍💻 Author
+Soyeon Hwang  
+M.S. Computer Science @ Jacksonville State University
