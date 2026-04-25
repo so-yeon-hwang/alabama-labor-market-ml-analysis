@@ -19,7 +19,7 @@ This project analyzes structural inequality across Alabama counties and investig
 - COVID-19 shock analysis
 - Machine learning (Random Forest, XGBoost)
 
-## 📎 Paper
+## 📑 Paper
 [View Final Paper](./paper/Structural Inequality and Uneven Labor Market Dynamics.pdf)
 
 ## 💻 Notebook
